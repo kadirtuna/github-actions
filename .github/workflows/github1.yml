@@ -103,8 +103,7 @@ jobs:
         run: |
           echo "${{ needs.job3.outputs.var4}}"
           echo "${{ needs.job3.outputs.var5}}"
-      - name: Step1
+      - name: Step2
         continue-on-error: true
         run: |
-          echo "${{ needs.job3.outputs.var4}}"
-          echo "${{ needs.job3.outputs.var5}}"
+          asd 
